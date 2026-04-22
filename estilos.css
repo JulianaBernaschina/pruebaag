@@ -20,3 +20,10 @@ backround-color: green
   backround-color:pink
   }
 }
+#parrafo p {
+  @media (min-width:700px){
+    body{ 
+      column-width:25px
+    }
+  }
+}
