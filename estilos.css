@@ -20,24 +20,23 @@ backround-color: green
   backround-color:white
   }
 }
-#parrafo p {
-  @media (min-width:700px){
-    body{ 
+@media (min-width:700px){
+    #parrafo p {
       column-width:25px
     }
   }
-}
-#parrafo p {
+
+/*parrafos*/
   @media (min-width:1700px){
-    body{ 
+    #parrafo p {
       column-width:40px
     }
   }
-}
-#parrafo p {
+
+
   @media (min-width:2700px){
-    body{ 
+    #parrafo p {
       column-width:70px
     }
   }
-}
+
