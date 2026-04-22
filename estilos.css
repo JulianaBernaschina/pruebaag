@@ -6,6 +6,21 @@ background-color: green;
 font-family: "Familjen Grotesk", sans-serif;
 }
 
+@media (min-width:100px){
+  body {
+  background-color:yellow;
+  }
+ main {
+   display:flex;
+   min-height:100vh;
+   flex-direction:column; 
+   justify-content:flex-start; 
+   gap:10px; 
+   margin:10px; 
+      column-width:250px;
+ }
+}
+
 @media (min-width:700px){
   body {
   background-color:blue;
