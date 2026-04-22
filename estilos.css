@@ -3,7 +3,7 @@
 
 body { 
 backround-color: green
-font: familjen grotesk 
+font-family: "Familjen Grotesk", sans-serif;
 }
 
 @media (min-width:700px){
