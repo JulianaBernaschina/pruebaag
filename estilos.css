@@ -2,45 +2,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Geist:wght@100..900&display=swap');
 
 body { 
-backround-color: green
+background-color: green;
 font-family: "Familjen Grotesk", sans-serif;
 }
 
 @media (min-width:700px){
   body {
-  backround-color:blue
+  background-color:blue;
   }
-}
-  @media (min-width:1700px){
-  body {
-  backround-color:pink
-  }
-}
-  @media (min-width:2700px){
-  body {
-  backround-color:white
-  }
-}
-
-
-/*parrafos*/
-@media (min-width:700px){
-    #parrafo p {
+   #parrafo p {
       column-width:25px
     }
-  }
-
-
+}
   @media (min-width:1700px){
-    #parrafo p {
+  body {
+  background-color:pink;
+  }
+     #parrafo p {
       column-width:40px
     }
-  }
-
-
+}
   @media (min-width:2700px){
-    #parrafo p {
+  body {
+  background-color:white;
+  }
+     #parrafo p {
       column-width:70px
     }
-  }
+}
+
+
 
