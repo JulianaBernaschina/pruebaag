@@ -10,7 +10,7 @@ font-family: "Familjen Grotesk", sans-serif;
   body {
   background-color:blue;
   }
-   #parrafo p {
+   #parrafo1 p {
      display:block;
      column-count:1;
       column-width:250px;
@@ -20,7 +20,7 @@ font-family: "Familjen Grotesk", sans-serif;
   body {
   background-color:pink;
   }
-     #parrafo p {
+     #parrafo1 p {
        display:block;
         column-count:1;
       column-width:400px;
@@ -30,7 +30,7 @@ font-family: "Familjen Grotesk", sans-serif;
   body {
   background-color:white;
   }
-     #parrafo p {
+     #parrafo1 p {
        display:block;
           column-count:1;
       column-width:1000px;
