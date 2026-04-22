@@ -27,3 +27,17 @@ backround-color: green
     }
   }
 }
+#parrafo p {
+  @media (min-width:1700px){
+    body{ 
+      column-width:40px
+    }
+  }
+}
+#parrafo p {
+  @media (min-width:2700px){
+    body{ 
+      column-width:70px
+    }
+  }
+}
