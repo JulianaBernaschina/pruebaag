@@ -24,12 +24,18 @@ font-family: "Familjen Grotesk", sans-serif;
   @media (min-width:1700px){
   body {
   background-color:pink;
-  }
-     #parrafo1 p {
-       display:block;
-        column-count:1;
-      column-width:400px;
+  } main {
+   display:flex;
+  flex-wrap:wrap;
+   min-height:100vh;
+   flex-direction:column; 
+   justify-content:flex-start; 
+   gap:10px; 
+   margin:10px; 
+     column-count:2;
+      column-width:500px;
     }
+     
 }
   @media (min-width:2700px){
   body {
