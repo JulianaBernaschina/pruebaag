@@ -24,7 +24,8 @@ font-family: "Familjen Grotesk", sans-serif;
   @media (min-width:1700px){
   body {
   background-color:pink;
-  } main {
+  } 
+  main {
    display:flex;
   flex-wrap:wrap;
    min-height:100vh;
