@@ -10,8 +10,13 @@ font-family: "Familjen Grotesk", sans-serif;
   body {
   background-color:blue;
   }
-   #parrafo1 p {
-     display:block;
+ main {
+   display:flex;
+   min-height:100vh;
+   flex-direction:column; 
+   justify-content:flex-start; 
+   gap:10px; 
+   margin:10px; 
      column-count:1;
       column-width:250px;
     }
@@ -36,6 +41,8 @@ font-family: "Familjen Grotesk", sans-serif;
       column-width:1000px;
     }
 }
+
+
 
 
 
