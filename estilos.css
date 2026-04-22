@@ -15,3 +15,8 @@ backround-color: green
   backround-color:pink
   }
 }
+  @media (min-width:2700px){
+  body {
+  backround-color:pink
+  }
+}
