@@ -13,11 +13,10 @@ font-family: "Familjen Grotesk", sans-serif;
  main {
    display:flex;
    min-height:100vh;
-   flex-direction:column; 
+   flex-direction:row; 
    justify-content:flex-start; 
    gap:10px; 
    margin:10px; 
-     column-count:1;
       column-width:250px;
     }
 }
@@ -33,7 +32,6 @@ font-family: "Familjen Grotesk", sans-serif;
    justify-content:flex-start; 
    gap:10px; 
    margin:10px; 
-     column-count:2;
       column-width:500px;
     }
      
@@ -50,7 +48,6 @@ font-family: "Familjen Grotesk", sans-serif;
    justify-content:flex-start; 
    gap:10px; 
    margin:10px; 
-     column-count:4;
       column-width:1000px; 
    }
 }
