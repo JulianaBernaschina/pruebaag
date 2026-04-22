@@ -3,6 +3,7 @@
 
 body { 
 backround-color: green
+font: familjen grotesk 
 }
 
 @media (min-width:700px){
@@ -20,13 +21,16 @@ backround-color: green
   backround-color:white
   }
 }
+
+
+/*parrafos*/
 @media (min-width:700px){
     #parrafo p {
       column-width:25px
     }
   }
 
-/*parrafos*/
+
   @media (min-width:1700px){
     #parrafo p {
       column-width:40px
